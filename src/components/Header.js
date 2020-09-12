@@ -1,4 +1,5 @@
-import React from 'react'
+/* eslint-disable jsx-a11y/iframe-has-title */
+import React from "react";
 
 export default () => {
   return (
@@ -23,7 +24,7 @@ export default () => {
         }}
       >
         Sim! Quero ficar no shape comendo o que gosto!
-        </button>
+      </button>
     </section>
-  )
-}
+  );
+};
