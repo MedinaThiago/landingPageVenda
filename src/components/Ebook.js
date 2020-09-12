@@ -15,8 +15,7 @@ export default () => {
       problema é que eu odeio batata doce! E agora? Terei que comer o que
       não gosto ou não vou conseguir desenvolver meus músculos ou perder
       gordura??? Mas então, não é bem assim que funciona. Eu estudei muito e
-      aprendi que esse não é o único caminho. Por isso fiz nesse livro
-      coloquei todo meu conhecimento para encurtar o seu caminho no processo
+      aprendi que esse não é o único caminho. Por isso coloquei todo meu conhecimento nesse livro para encurtar o seu caminho no processo
       de perda de gordura ou ganho de massa, mostrando que é possível Ficar
       no Shape comendo o que gosta.
     </p>

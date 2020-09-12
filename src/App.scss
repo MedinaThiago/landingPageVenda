@@ -30,8 +30,8 @@ html, body, #root {
   color: #fff;
 }
 .video {
-  width: 100%;
-  height: 100%;
+  // width: 100%;
+  // height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -43,9 +43,12 @@ html, body, #root {
   height: 340px;
 }
 .button {
-  width: 90%;
+  width: 100%;
   max-width: 600px;
   height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #fcbf1e;
   border: 0;
   border-radius: 8px;
@@ -112,7 +115,7 @@ body {
 input,
 button,
 textarea {
-  font: 400 18px "Montserrat", sans-serif;
+  font: 400 18px "Poppins", sans-serif;
 }
 
 form input {
@@ -138,6 +141,7 @@ form textarea {
 
 @media (max-width: 420px) {
   .button {
+    height: 60px;
     font-size: 10px;
   }
 
@@ -146,6 +150,7 @@ form textarea {
 @media (max-width: 575px) {
   .button {
     font-size: 10px;
+    height: 60px;
   }
 
   .video .video-frame {
@@ -466,6 +471,7 @@ form textarea {
   }
   .button{
     font-size: 20px;
+    height: 60px;
   }
 }
 
