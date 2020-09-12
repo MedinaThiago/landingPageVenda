@@ -7,7 +7,9 @@
 }
 
 html, body, #root {
-  font-family: 'Poppins', sans-serif;
+  font: "Poppins", sans-serif;
+  background: #f7f7f7;
+  -webkit-font-smoothing: antialiased;
 }
 
 .corpo{
@@ -84,7 +86,7 @@ html, body, #root {
 
 
 body {
-  font: "Montserrat", sans-serif;
+  font: "Poppins", sans-serif;
   background: #f7f7f7;
   -webkit-font-smoothing: antialiased;
 }
@@ -328,10 +330,7 @@ form textarea {
   font-weight: bold;
 }
 
-.expert {
-  display: flex;
-  margin: auto;
-}
+
 
 .expert-content p {
   font-size: 19px;
