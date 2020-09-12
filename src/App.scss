@@ -91,7 +91,7 @@ html, body, #root {
   color: rgb(0, 69, 119);
   background-color: sandybrown;
   justify-content: center;
-  margin: auto;
+  margin: 0 -15px;
 }
 
 .container-card{
@@ -469,10 +469,12 @@ form textarea {
   }
 }
 
+.carousel-item {
+  margin-bottom: 15px;
+}
 
 .shape-container {
   background-color: rgba(0, 69, 119, 0.37);
-  margin-top: 15px;
   color: #121212;
 }
 
