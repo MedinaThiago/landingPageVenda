@@ -1,15 +1,12 @@
 import React, { useState } from "react";
-import imgHeader from "./assets/imgHeader.jpeg";
-import expert from "./assets/expert.jpeg";
+import capa from "./assets/capa-ebook.jpeg";
 import "./App.scss";
 import Cards from "./components/Cards.js";
-import Modal from "./components/Modal.js";
 
 import env from "dotenv";
 env.config();
 
 function App() {
-  const [isModalVisible, setIsModalVisible] = useState(false);
   return (
     <div className="corpo">
       <div className="row">
@@ -22,7 +19,7 @@ function App() {
           </div>
           <button
             className="button mb-5"
-            onClick={() => setIsModalVisible(true)}
+            onClick={() => { }}
           >
             SIM!!! QUERO FICAR NO SHAPE COMENDO O QUE GOSTO!
           </button>
@@ -36,7 +33,7 @@ function App() {
           </h3>
         </div>
         <div className="col-md-6 expert">
-          <img src={expert} className="img-fluid expertImg" />
+          <img src={capa} className="img-fluid expertImg" />
         </div>
         <p className="row text-container-ebook">
           péssimas experiências com dietas da moda super restritivas.
@@ -65,7 +62,9 @@ function App() {
       </div>
 
       <div className="row p-md-4">
-        
+        <div>
+
+        </div>
       </div>
     </div>
   );
