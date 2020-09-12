@@ -35,15 +35,11 @@ function App() {
       </div>
 
       <div className="row p-md-4 container-ebook">
-        <div className="col-12 mt-3 mb-3 text-center">
-          <h3 className="bold .title-container-ebook">
-            Você, assim como eu, já teve ou está passando por
-          </h3>
-        </div>
         <div className="col-md-6 expert">
           <img src={expert} className="img-fluid expertImg" />
         </div>
-        <p className="row text-container-ebook">
+        <p className="col-md-6 text-container-ebook">
+          Você, assim como eu, já teve ou está passando por
           péssimas experiências com dietas da moda super restritivas.
           Antigamente eu achava que só podia comer batata doce, frango e ovos,
           mas o grande problema é que eu odeio batata doce! E agora? Terei que
