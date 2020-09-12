@@ -62,6 +62,20 @@ html, body, #root {
   cursor: pointer;
 }
 
+.carrossel{
+  margin: auto;
+}
+
+.container-ebook{
+  max-width: 1290px;
+  margin: auto;
+}
+
+.bonus{
+  max-width: 1290px;
+  margin: auto;
+}
+
 .title-container-ebook {
   font-size: 40px;
 }
@@ -77,7 +91,7 @@ html, body, #root {
   color: rgb(0, 69, 119);
   background-color: sandybrown;
   justify-content: center;
-  margin: -15px;
+  margin: auto;
 }
 
 .container-card{

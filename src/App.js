@@ -34,7 +34,7 @@ function App() {
         <Carrossel />
       </div>
 
-      <div className="row p-md-4">
+      <div className="row p-md-4 bonus">
         <Bonus />
       </div>
 

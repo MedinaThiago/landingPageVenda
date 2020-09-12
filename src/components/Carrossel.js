@@ -8,7 +8,7 @@ import provaSocial6 from "../assets/prova-social-6.jpeg";
 
 export default () => {
   return (
-    <div className="offset-lg-4 col-lg-6 offset-sm-3 col-sm-6 mb-3">
+    <div className="offset-lg-4 col-lg-6 offset-sm-3 col-sm-6 mb-3 m-auto">
       <div
         id="carouselExampleIndicators"
         className="carousel slide"
