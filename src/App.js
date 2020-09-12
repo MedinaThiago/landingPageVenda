@@ -28,7 +28,7 @@ function App() {
       <div className="row p-md-4 shape-container">
         <div className="col-12 mt-3 mb-3 text-center">
           <h3 className="bold title-card">
-            É verdade que posso comer de tudo e ficar no shape? Olha aí
+            É verdade que posso comer de tudo e ficar no shape? Olha aí!
           </h3>
         </div>
         <Carrossel />

@@ -41,6 +41,17 @@ export default () => {
           Nesse vídeo falo tudo sobre a regra 80/20 e como colocar em prática
         </h4>
       </div>
+      <div className="col-12 mt-3 mb-3 text-center">
+        <h4 className="bold mt-4 title-card title-preco">
+          E TUDO ISSO
+          </h4>
+        <h4 className="bold title-card preco-de">
+          DE: R$45,90
+          </h4>
+        <h4 className="bold title-card preco-por">
+          POR: R$27,90
+          </h4>
+      </div>
     </>
   );
 };

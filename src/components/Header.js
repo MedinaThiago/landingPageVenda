@@ -5,7 +5,7 @@ export default () => {
     <section className="header">
       <h3 className="bold title-card title">
         Fique no shape comendo o que gosta!
-    </h3>
+      </h3>
       <div className="video">
         <iframe
           className="video-frame"
@@ -15,17 +15,15 @@ export default () => {
           allowFullScreen
         ></iframe>
       </div>
-      <div className="col-12">
-        <button
-          className="button mb-5 mt-3"
-          onClick={() => {
-            window.location.href =
-              "https://pay.hotmart.com/N40925635B?off=yq21dk4a";
-          }}
-        >
-          Sim! Quero ficar no shape comendo o que gosto!
+      <button
+        className="button mb-5 mt-3"
+        onClick={() => {
+          window.location.href =
+            "https://pay.hotmart.com/N40925635B?off=yq21dk4a";
+        }}
+      >
+        Sim! Quero ficar no shape comendo o que gosto!
         </button>
-      </div>
     </section>
   )
 }

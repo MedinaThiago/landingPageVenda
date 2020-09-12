@@ -308,9 +308,14 @@ form textarea {
 }
 .card-title {
   font-size: 25px !important;
+  text-align: center;
 }
 .card-text {
   font-size: 20px !important;
+}
+
+.title{
+  text-align: center;
 }
 
 @media (max-width: 767px) {
@@ -481,3 +486,16 @@ form textarea {
 .title-bonus {
   color: rgb(0, 69, 119);
 }
+
+.title-preco{
+  color: rgb(0, 69, 119);
+}
+
+.preco-de{
+  color: red;
+}
+
+.preco-por{
+  color: green;
+}
+
