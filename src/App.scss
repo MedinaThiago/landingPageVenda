@@ -82,6 +82,16 @@
   justify-content: center;
 }
 
+.expertImg{
+  width: 300px;
+  height: 300px;
+}
+
+.expert {
+  padding-top: 15px;
+  margin: auto;
+}
+
 
 body {
   font: "Montserrat", sans-serif;
@@ -323,10 +333,7 @@ form textarea {
   font-weight: bold;
 }
 
-.expert {
-  display: flex;
-  margin: auto;
-}
+
 
 .expert-content p {
   font-size: 19px;
