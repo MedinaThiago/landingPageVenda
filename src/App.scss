@@ -76,7 +76,7 @@ html, body, #root {
 .card-container {
   color: rgb(0, 69, 119);
   background-color: sandybrown;
-  // justify-content: center;
+  justify-content: center;
   margin: -15px;
 }
 
@@ -122,22 +122,54 @@ form textarea {
 }
 
 
-
-
-
-@media (max-width: 280px) {
-  .button {
-    font-size: 8px !important;
-  }
-}
 @media (max-width: 420px) {
   .button {
     font-size: 10px;
   }
+
 }
+
 @media (max-width: 575px) {
   .button {
-    font-size: 12px;
+    font-size: 10px;
+  }
+
+  .video .video-frame {
+    width: 330px !important;
+    height: 220px !important;
+  }
+
+  .text-container-ebook {
+    font-size: 14px;
+    padding: 0px 20px 40px 20px;
+  }
+
+  .divCard {
+    min-height: 300px !important;
+  }
+}
+
+@media (max-width: 778px) {
+
+  .video .video-frame {
+    width: 550px;
+    height: 340px;
+  }
+
+  .text-container-ebook {
+    font-size: 14px;
+    padding: 0px 20px 40px 20px;
+  }
+
+  .divCard {
+    min-height: 300px !important;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .divCard {
+    margin-bottom: 10px !important;
   }
 }
 
@@ -269,7 +301,7 @@ form textarea {
 
 @media (max-width: 767px) {
   .title-card {
-    font-size: 30px;
+    font-size: 28px;
     margin-top: 5px;
   }
 }
@@ -299,6 +331,9 @@ form textarea {
   h3{
     font-size: 35px;
   }
+
+
+  
 }
 
 .expert-container {
@@ -329,7 +364,6 @@ form textarea {
   font-size: 42px;
   font-weight: bold;
 }
-
 
 
 .expert-content p {
@@ -402,12 +436,12 @@ form textarea {
 }
 @media (max-width: 767px) {
   .footer {
-    height: 150px;
+    height: 160px;
     padding: 10px;
   }
 
   .footer span {
-    font-size: 14px;
+    font-size: 12px;
     margin-bottom: 10px;
   }
 }

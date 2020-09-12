@@ -1,11 +1,11 @@
 import React from "react";
 import "./../App.scss";
 
-const Cards = ({ titulo, texto }) => {
+const Cards = () => {
   return (
     <>
-      <div className="col-md-4 m-auto card-deck p-md-3">
-        <div className="card  divCard">
+      <div className="col-lg-4 col-md-6 m-auto justify-content-center card-deck p-md-3">
+        <div className="card divCard">
           <div className="card-body">
             <h5 className="card-title">A importância da flexibilidade </h5>
             <p className="card-text">
@@ -13,10 +13,10 @@ const Cards = ({ titulo, texto }) => {
               resultados e fazer você ficar no shape de forma mais eficiente.
             </p>
           </div>
-        </div>
+        </div>  
       </div>
 
-      <div className="col-md-4 m-auto card-deck p-md-3">
+      <div className="col-lg-4 col-md-6 m-auto justify-content-center card-deck p-md-3">
         <div className="card  divCard">
           <div className="card-body">
             <h5 className="card-title">Estimar suas calorias</h5>
@@ -29,7 +29,7 @@ const Cards = ({ titulo, texto }) => {
         </div>
       </div>
 
-      <div className="col-md-4 m-auto card-deck p-md-3">
+      <div className="col-lg-4 col-md-6 m-auto justify-content-center card-deck p-md-3">
         <div className="card  divCard">
           <div className="card-body">
             <h5 className="card-title">Calcular os macronutrientes</h5>
@@ -41,7 +41,7 @@ const Cards = ({ titulo, texto }) => {
         </div>
       </div>
 
-      <div className="col-md-4 m-auto card-deck p-md-3">
+      <div className="col-lg-4 col-md-6 m-auto justify-content-center card-deck p-md-3">
         <div className="card  divCard">
           <div className="card-body">
             <h5 className="card-title">Definindo a sua rotina</h5>
@@ -53,7 +53,7 @@ const Cards = ({ titulo, texto }) => {
         </div>
       </div>
 
-      <div className="col-md-4 m-auto card-deck p-md-3">
+      <div className="col-lg-4 col-md-6 m-auto justify-content-center card-deck p-md-3">
         <div className="card  divCard">
           <div className="card-body">
             <h5 className="card-title">Regra 80/20</h5>
@@ -66,7 +66,7 @@ const Cards = ({ titulo, texto }) => {
         </div>
       </div>
 
-      <div className="col-md-4 m-auto card-deck p-md-3">
+      <div className="col-lg-4 col-md-6 m-auto justify-content-center card-deck p-md-3">
         <div className="card  divCard">
           <div className="card-body">
             <h5 className="card-title">Receitas flexíveis</h5>

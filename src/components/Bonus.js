@@ -11,7 +11,7 @@ export default () => {
           Estou adicionando 3 bônus! Ao comprar o livro, você ainda leva...
         </h3>
       </div>
-      <div className="col-md-4">
+      <div className="col-md-4 text-center">
         <img
           alt="Ebook de receitas"
           src={receitas}
@@ -21,7 +21,7 @@ export default () => {
           Ebook com 8 receitas incríveis para você encaixar no dia a dia{" "}
         </h4>
       </div>
-      <div className="col-md-4">
+      <div className="col-md-4 text-center">
         <img
           alt="Ebook de duvidas frequentes"
           src={perguntas}
@@ -31,7 +31,7 @@ export default () => {
           Ebook respondendo dúvidas mais frequentes sobre o assunto
         </h4>
       </div>
-      <div className="col-md-4">
+      <div className="col-md-4 text-center">
         <img
           alt="Video aula regra 80/20"
           src={regra8020}
