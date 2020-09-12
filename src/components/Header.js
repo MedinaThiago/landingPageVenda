@@ -15,15 +15,17 @@ export default () => {
           allowFullScreen
         ></iframe>
       </div>
-      <button
-        className="button mb-5 mt-3"
-        onClick={() => {
-          window.location.href =
-            "https://pay.hotmart.com/N40925635B?off=yq21dk4a";
-        }}
-      >
-        Sim! Quero ficar no shape comendo o que gosto!
-    </button>
+      <div className="col-12">
+        <button
+          className="button mb-5 mt-3"
+          onClick={() => {
+            window.location.href =
+              "https://pay.hotmart.com/N40925635B?off=yq21dk4a";
+          }}
+        >
+          Sim! Quero ficar no shape comendo o que gosto!
+        </button>
+      </div>
     </section>
   )
 }
