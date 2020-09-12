@@ -1,5 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
 import capa from "./assets/capa-ebook.jpeg";
+import provaSocial1 from "./assets/prova-social-1.jpeg"
+import provaSocial2 from "./assets/prova-social-2.jpeg"
+import provaSocial3 from "./assets/prova-social-3.jpeg"
+import provaSocial4 from "./assets/prova-social-4.jpeg"
+import provaSocial5 from "./assets/prova-social-5.jpeg"
+import provaSocial6 from "./assets/prova-social-6.jpeg"
+import receitas from "./assets/receitas.jpeg"
+import perguntas from "./assets/perguntas.jpeg"
+import regra8020 from "./assets/regra-80-20.jpeg"
+import compraSegura from "./assets/compra-segura.jpeg"
 import "./App.scss";
 import Cards from "./components/Cards.js";
 
@@ -15,7 +25,7 @@ function App() {
             Fique no shape comendo o que gosta
           </h3>
           <div className="video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/D4-XL1SsuYU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe title="FIQUE NO SHAPE COMENDO O QUE GOSTA" width="560" height="315" src="https://www.youtube.com/embed/D4-XL1SsuYU" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
           </div>
           <button
             className="button mb-5"
@@ -33,7 +43,7 @@ function App() {
           </h3>
         </div>
         <div className="col-md-6 expert">
-          <img src={capa} className="img-fluid expertImg" />
+          <img alt='Capa Do Ebook' src={capa} className="img-fluid expertImg" />
         </div>
         <p className="row text-container-ebook">
           péssimas experiências com dietas da moda super restritivas.
@@ -62,11 +72,62 @@ function App() {
       </div>
 
       <div className="row p-md-4">
-        <div>
+        <div className="col-12 mt-3 mb-3 text-center">
+          <h3 className="bold title-card">
+            É verdade que posso comer de tudo e ficar no shape? Olha aí
+          </h3>
+        </div>
+        <div className="row">
+          <div className="col-md-6 expert">
+            <img alt='Prova social 1' src={provaSocial1} className="img-fluid expertImg" />
+          </div>
+          <div className="col-md-6 expert">
+            <img alt='Prova social 2' src={provaSocial2} className="img-fluid expertImg" />
+          </div>
+          <div className="col-md-6 expert">
+            <img alt='Prova social 3' src={provaSocial3} className="img-fluid expertImg" />
+          </div>
+          <div className="col-md-6 expert">
+            <img alt='Prova social 4' src={provaSocial4} className="img-fluid expertImg" />
+          </div>
+          <div className="col-md-6 expert">
+            <img alt='Prova social 5' src={provaSocial5} className="img-fluid expertImg" />
+          </div>
+          <div className="col-md-6 expert">
+            <img alt='Prova social 6' src={provaSocial6} className="img-fluid expertImg" />
+          </div>
+        </div>
 
+      </div>
+
+      <div className="row p-md-4">
+        <div className="col-12 mt-3 mb-3 text-center">
+          <h3 className="bold title-card">
+            ESTOU ADICIONANDO 3 BÔNUS!  AO COMPRAR O LIVRO, VOCÊ AINDA LEVA...
+          </h3>
+        </div>
+        <div>
+          <img alt='Ebook de receitas' src={receitas} className="img-fluid expertImg" />
+          <h4>Ebook com 8 receitas incríveis para você encaixar no dia a dia </h4>
+          <img alt='Ebook de duvidas frequentes' src={perguntas} className="img-fluid expertImg" />
+          <h4>Ebook respondendo dúvidas mais frequentes sobre o assunto</h4>
+          <img alt='Video aula regra 80/20' src={regra8020} className="img-fluid expertImg" />
+          <h4>Nesse vídeo falo tudo sobre a regra 80/20 e como colocar em prática</h4>
         </div>
       </div>
+
+      <div className="row p-md-4">
+        <button
+          className="button mb-5"
+          onClick={() => { }}
+        >
+          SIM!!! QUERO FICAR NO SHAPE COMENDO O QUE GOSTO!
+        </button>
+        <img alt='Compra segura, Satisfação garantida, Privacidade protegida' src={compraSegura} className="img-fluid expertImg" />
+      </div>
     </div>
+
+
   );
 }
 
